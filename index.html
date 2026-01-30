@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sushovan Kc | AI & Machine Learning Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Interactive Particle Background (Antigravity Effect) -->
+    <canvas id="particle-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">Sushovan Kc</a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <span class="moon-icon">🌙</span>
+                    <span class="sun-icon">☀️</span>
+                </button>
+                <button class="nav-toggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-container">
+                <div class="hero-left">
+                    <div class="hero-intro">
+                        <span class="intro-arrow">↗</span>
+                        <span class="intro-text">Hello! I Am</span>
+                        <span class="intro-name">Sushovan Kc</span>
+                    </div>
+                    
+                    <div class="hero-main">
+                        <p class="hero-designer">An Engineer who</p>
+                        <h1 class="hero-title">
+                            <span class="title-line">Builds AI systems</span>
+                            <span class="title-line">with <span class="title-circle"></span></span>
+                        </h1>
+                        <p class="hero-cover">Python...</p>
+                        <p class="hero-tagline">Turning complex problems into production-ready AI applications</p>
+                    </div>
+                    
+                    <div class="hero-role">
+                        <p class="role-text">
+                            I'm an <span class="role-highlight" id="typed-role">AI/ML Developer</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="section-container">
+                <div class="about-content">
+                    <p class="about-text">
+                        I'm Sushovan KC, a Python-focused AI & Machine Learning Engineer with experience building intelligent systems and deploying them as real-world applications. I work primarily with Python to develop machine learning and deep learning models, especially in computer vision and medical image analysis. My experience covers the complete AI workflow—from data preprocessing and model design to training, evaluation, and inference. I use Django and Flask to convert AI models into scalable, production-ready web applications.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="education-section">
+            <div class="section-container">
+                <h2 class="section-title">Education & Experience</h2>
+                
+                <div class="education-grid">
+                    <div class="education-card">
+                        <div class="education-icon">🎓</div>
+                        <div class="education-info">
+                            <span class="education-year">Education</span>
+                            <h3 class="education-degree">Advanced College of Engineering and Management</h3>
+                            <p class="education-school">Bachelor of Engineering</p>
+                            <p class="education-details">April 2021– Present</p>
+                        </div>
+                    </div>
+                    
+                    <div class="education-card">
+                        <div class="education-icon">📜</div>
+                        <div class="education-info">
+                            <span class="education-year">Expertise</span>
+                            <h3 class="education-degree">Deep Learning & Computer Vision</h3>
+                            <p class="education-school">Specialization</p>
+                            <p class="education-details">U-Net, TransUNet, Masked Autoencoders (MAE), CNNs • Medical image analysis and segmentation</p>
+                        </div>
+                    </div>
+                    
+                    <div class="education-card">
+                        <div class="education-icon">🏆</div>
+                        <div class="education-info">
+                            <span class="education-year">3+ Projects</span>
+                            <h3 class="education-degree">Production AI Systems</h3>
+                            <p class="education-school">Portfolio</p>
+                            <p class="education-details">End-to-end ML pipelines • Model deployment with Django/Flask • Performance-optimized inference</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-tech-section">
+            <div class="section-container">
+                <h2 class="section-title">Skills & Technologies</h2>
+                
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">Programming</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">NumPy</span>
+                            <span class="skill-tag">Pandas</span>
+                            <span class="skill-tag">OOP</span>
+                            <span class="skill-tag">Scripting</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">Machine Learning & AI</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">TensorFlow</span>
+                            <span class="skill-tag">PyTorch</span>
+                            <span class="skill-tag">Scikit-learn</span>
+                            <span class="skill-tag">Deep Learning</span>
+                            <span class="skill-tag">CNNs</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">Computer Vision</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">OpenCV</span>
+                            <span class="skill-tag">Image Preprocessing</span>
+                            <span class="skill-tag">Segmentation</span>
+                            <span class="skill-tag">Medical Imaging</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">Backend & Deployment</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Django</span>
+                            <span class="skill-tag">Flask</span>
+                            <span class="skill-tag">REST APIs</span>
+                            <span class="skill-tag">Git</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Statement Section -->
+        <section class="statement-section">
+            <div class="section-container">
+                <div class="statement-content">
+                    <p class="statement-text">
+                        I build reliable, impactful AI solutions, particularly in healthcare
+                        and applied machine learning
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="section-container">
+                <h2 class="section-title">Projects</h2>
+                
+                <div class="project-featured">
+                    <span class="project-label">Featured</span>
+                    <h3 class="project-title">Cataract Detection & Segmentation System</h3>
+                    <p class="project-description">
+                        AI-powered system for detecting and segmenting cataracts from eye images using deep learning,
+                        with a Python-based inference pipeline and web interface. Built as a comprehensive medical
+                        imaging solution combining computer vision with practical deployment.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Deep Learning</span>
+                        <span class="tech-tag">Medical Imaging</span>
+                        <span class="tech-tag">Flask</span>
+                    </div>
+                    <a href="https://github.com/Sushovan-kc/Minor-project" class="project-link" target="_blank">View on GitHub →</a>
+                    <div class="project-image">
+                        <img src="assets/images/projects/cataract_detection.jpg" alt="Cataract Detection Project">
+                    </div>
+                </div>
+                
+                <div class="project-featured">
+                    <span class="project-label">Computer Graphics Project</span>
+                    <h3 class="project-title">Maze Generator & Solver</h3>
+                    <p class="project-description">
+                        Interactive maze simulation using Depth-First Search (DFS) algorithm built with Python and Pygame.
+                        Features real-time maze generation with customizable dimensions and tile sizes, visual pathfinding
+                        animation, and an intuitive GUI for parameter configuration. Watch the algorithm carve through
+                        walls and find the optimal path from start to end.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Pygame</span>
+                        <span class="tech-tag">DFS Algorithm</span>
+                        <span class="tech-tag">Visualization</span>
+                    </div>
+                    <a href="https://github.com/Sushovan-kc/computer-graphics/tree/main/computer%20graphics/maze" class="project-link">View on GitHub →</a>
+                    <div class="project-image">
+                        <img src="assets/images/projects/maze_solver.jpg" alt="Maze Generator Project">
+                    </div>
+                </div>
+                
+                <div class="project-featured">
+                    <span class="project-label">Web Development</span>
+                    <h3 class="project-title">Personal Portfolio Website</h3>
+                    <p class="project-description">
+                        A modern, responsive portfolio website built from scratch with vanilla HTML, CSS, and JavaScript.
+                        Features an interactive particle background with physics-based animations, glassmorphism UI design,
+                        light/dark theme toggle with system preference detection, smooth scroll animations, and a clean,
+                        professional layout to showcase projects and skills.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML5</span>
+                        <span class="tech-tag">CSS3</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Responsive Design</span>
+                    </div>
+                    <a href="https://github.com/Sushovan-kc" class="project-link" target="_blank">View on GitHub →</a>
+                    <div class="project-image">
+                        <img src="assets/images/projects/portfolio_light.jpg" alt="Portfolio Website Project" class="img-light">
+                        <img src="assets/images/projects/portfolio.jpg" alt="Portfolio Website Project" class="img-dark">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="section-container">
+                <h2 class="section-title">Let's Connect</h2>
+                <p class="contact-intro">
+                    Tell me about your project. Whether you need an AI solution, want to collaborate,
+                    or just want to chat about machine learning, I'd love to hear from you!
+                </p>
+                <div class="contact-links">
+                    <a href="mailto:sushovankc7@gmail.com" class="contact-link">sushovankc7@gmail.com</a>
+                    <a href="https://github.com/Sushovan-kc" class="contact-link" target="_blank">GitHub</a>
+                    <a href="https://linkedin.com" class="contact-link" target="_blank">LinkedIn</a>
+                    <a href="assets/docs/resume.pdf" class="contact-link" download>Resume</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <p class="footer-text">© 2026 Sushovan Kc. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
