@@ -11,14 +11,14 @@
 
 ## 🧠 Programming Languages
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=python,html,css,sql,js,c++,c" />
+  <img src="https://skillicons.dev/icons?i=python,html,css,js,c" />
 </p>
 
 ---
 
 ## 🚀 Frameworks & Libraries
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,flask" />
+  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,flask,django" />
 </p>
 
 ---
@@ -34,7 +34,7 @@
 
 ## 🛠 Tools & Platforms
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,jupyter,anaconda" />
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,anaconda,colab" />
 </p>
 
 ---
