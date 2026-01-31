@@ -11,7 +11,7 @@
 
 ## 🧠 Programming Languages
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=python,html,css,sql,jg,django,tensorflow" />
+  <img src="https://skillicons.dev/icons?i=python,html,css,sql,js,c++,c" />
 </p>
 
 ---
